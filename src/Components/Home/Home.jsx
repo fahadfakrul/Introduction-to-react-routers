@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 const Home = () => {
     const navigation =useNavigation();
     const location = useLocation();
+    console.log(location);
     return (
         <div>
             <Header></Header>
